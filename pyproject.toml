@@ -8,6 +8,8 @@ packages = [{ include = "cyboz_schedule_scraping" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+requests = "^2.30.0"
+beautifulsoup4 = "^4.12.2"
 
 [tool.flake8]
 per-file-ignores = ["__init__.py:F401"]
