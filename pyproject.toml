@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "cyboz-schedule-scraping"
+name = "cybozu-schedule-scraping"
 version = "0.1.0"
 description = ""
 authors = ["Yasunori Ishiguro <ishiguro-y@dainichi-consul.co.jp>"]
 readme = "README.md"
-packages = [{ include = "cyboz_schedule_scraping" }]
+packages = [{ include = "cybozu_schedule_scraping" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
