@@ -160,7 +160,7 @@ def call_http_method(
         response = handler(url=uri, data=data)
         response.raise_for_status()
     except requests.HTTPError:
-        raise CBScrapingException(f"`{uri}`へのGETリクエストに失敗しました。")
+        raise CBScrapingException(f"`{uri}`への{method.upper()}リクエストに失敗しました。")
     return response
 
 
